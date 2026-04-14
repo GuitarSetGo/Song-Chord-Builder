@@ -1,13 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>🎵 Song Chord Builder</title>
-  <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>🎵 Song Chord Builder</title>
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
-
 <header>
   <div class="logo">🎵 Chord Builder</div>
   <input class="song-title-input" id="songTitle" type="text" placeholder="Untitled Song..." value="My Song">
@@ -34,7 +33,6 @@
     <button class="btn btn-primary btn-sm" onclick="saveCurrentProject()">💾 Save</button>
   </div>
 </header>
-
 <div class="legend">
   <span style="font-size:0.66rem;color:var(--text3);font-weight:600;margin-right:2px;">FUNCTION:</span>
   <div class="legend-item"><div class="legend-dot" style="background:var(--tonic)"></div> Tonic (home)</div>
@@ -44,7 +42,6 @@
   <div class="legend-item"><div class="legend-dot" style="background:var(--secondary)"></div> Secondary Dom</div>
   <div class="legend-item" style="margin-left:auto;font-size:0.66rem;color:var(--text3);">🔊 Click any chord to hear it</div>
 </div>
-
 <div class="main">
   <div class="sections-panel">
     <div class="panel-header"><span class="panel-title">📋 Sections</span></div>
@@ -53,7 +50,6 @@
       <button class="btn btn-primary" style="width:100%;font-size:0.78rem;" onclick="addSection()">+ Add Section</button>
     </div>
   </div>
-
   <div class="editor-panel">
     <div class="editor-header" id="editorHeader" style="display:none">
       <input class="section-name-input" id="sectionNameInput" type="text" placeholder="Section name...">
@@ -92,7 +88,6 @@
       </div>
     </div>
   </div>
-
   <div class="palette-panel">
     <div class="panel-header"><span class="panel-title">🎹 Chord Palette</span></div>
     <div class="palette-tabs">
@@ -103,7 +98,6 @@
     <div class="palette-body" id="paletteBody"></div>
   </div>
 </div>
-
 <div class="overview-panel">
   <div class="overview-header">
     <span class="overview-title">🗺️ Song Overview</span>
@@ -113,10 +107,8 @@
     <span style="color:var(--text3);font-size:0.73rem;">Add sections to see your song structure here...</span>
   </div>
 </div>
-
 <div class="toast" id="toast"></div>
-
-<!-- MODALS -->
+<!-- PROJECTS MODAL -->
 <div class="modal-overlay" id="projectsModal">
   <div class="modal">
     <div class="modal-header">
@@ -126,7 +118,7 @@
     <div class="modal-body" id="projectsModalBody"></div>
   </div>
 </div>
-
+<!-- EXPORT MODAL -->
 <div class="modal-overlay" id="exportModal">
   <div class="export-modal">
     <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:13px;">
@@ -140,7 +132,6 @@
     </div>
   </div>
 </div>
-
 <script src="script.js"></script>
 </body>
 </html>
