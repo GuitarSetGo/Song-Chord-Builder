@@ -29,7 +29,7 @@ Since this is a client-side application, no installation is required.
 
 1.  Clone the repository:
     ```bash
-    git clone [https://github.com/YOUR_USERNAME/song-chord-builder.git](https://github.com/YOUR_USERNAME/song-chord-builder.git)
+    git clone [https://github.com/guitarsetgo/song-chord-builder.git](https://github.com/guitarsetgo/song-chord-builder.git)
     ```
 2.  Open `index.html` in any modern web browser.
 3.  **Start Composing:**
