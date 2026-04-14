@@ -1,6 +1,6 @@
 # 🎵 [Song Chord Builder](https://guitarsetgo.github.io/Song-Chord-Builder/)
 
-![Version](https://img.shields.io/badge/version-2.0.0-blueviolet)
+![Version](https://img.shields.io/badge/version-1.0.0-blueviolet)
 ![Status](https://img.shields.io/badge/status-active-success)
 
 **Song Chord Builder** is a web-based music theory engine and songwriting tool designed for musicians and composers. It allows users to build complex chord progressions using a visual interface, leverage music theory presets, and listen to their compositions in real-time using the Web Audio API.
