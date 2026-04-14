@@ -39,4 +39,4 @@ Since this is a client-side application, no installation is required.
     -   Press **Play** to hear your creation.
 
 ---
-*Developed by **Jash Gonzalez** *
+*Developed by **Joshua Gonzalez** *
