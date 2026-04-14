@@ -1,4 +1,22 @@
 // ============================================================
+// DATABASE ADAPTER (LocalStorage)
+// ============================================================
+window.db = {
+  get: async (key) => {
+    const data = localStorage.getItem(key);
+    return data ? JSON.parse(data) : null;
+  },
+  set: async (key, value) => {
+    try {
+      localStorage.setItem(key, JSON.stringify(value));
+    } catch (e) {
+      console.error("Error saving to localStorage", e);
+      throw e;
+    }
+  }
+};
+
+// ============================================================
 // MUSIC THEORY ENGINE
 // ============================================================
 const NOTES = ['C','C#','D','D#','E','F','F#','G','G#','A','A#','B'];
